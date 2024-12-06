@@ -1,7 +1,10 @@
 # isort: skip_file
-from models.dummy_model import DummyModel
 
-UserModel = DummyModel
+# from models.te_rag import TopicModelingRAG # v1
+from models.llm_te_rag import LLMPreCheckTopicModelingRAG # v2
+
+# UserModel = TopicModelingRAG
+UserModel = LLMPreCheckTopicModelingRAG
 
 # Uncomment the lines below to use the Vanilla LLAMA baseline
 # from models.vanilla_llama_baseline import InstructModel 

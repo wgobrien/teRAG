@@ -6,5 +6,4 @@ Our research comprised of two attempts at the model. The first is contained in `
 The package relies on the `gensim` implementation of Latent Dirichlet Allocation, which can be installed via pip.
 
 ## Usage
-To train the model, run the following commands:
-
+To perform local evaluation, run `python local_evaluation.py` from the command line. To use the model in your own projects, import the model object `LLMPreCheckTopicModelingRAG` from `llm_te_rag.py`.
